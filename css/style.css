@@ -1,0 +1,21 @@
+#clock {
+    display: flex;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 3em;
+}
+
+#clock > * {
+    white-space: nowrap;
+}
+
+#clock #days {
+    margin-right: 1em;
+}
